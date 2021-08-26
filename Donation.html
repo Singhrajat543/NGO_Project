@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Homepage design with Bootstrap and Animate css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+    
+
+    <link rel="stylesheet" href="css/non-IndexPages.css">    
+    <link rel="stylesheet" href="css/footer.css">    
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" style="background-color: black;">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="">JVBS</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/ngo.html">Home</a></li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Our Work
+                            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                            
+
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Covid.html">Covid-19</a>
+                            <a class="dropdown-item" href="Medical-camp.html">Medical Camp</a>
+                            <a class="dropdown-item" href="/Food-donation.html">Food donation
+                            </a>
+                            <a class="dropdown-item" href="/Child-Education.html">Child Education</a>
+                          </div>
+                        </li>
+                        
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Events
+                              <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                              
+  
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="/volenteerCertificate.html"> Certification</a>
+                            </div>
+                          </li>
+                        
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gallery
+                              <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                              
+  
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="/RecentImage.html">Recent Image</a>
+                              <a class="dropdown-item" href="/OurActivity.html">Our Activity</a>
+                            </div>
+                          </li>
+                          
+                        <li><a href="/contact.html">contact</a></li>
+                        <li><a href="/About.html">AboutUs</a></li>
+                        <li><a href="/Donation.html">Donation</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner" style="background-image: url(img/NGO-B.jpeg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated bounceInRight" style="animation-delay: 1s"> Serving <span>Humanity</span></h2>
+                        <h3 class="animated bounceInLeft" style="animation-delay: 2s"> JAGRUTI VIKAS BAHUUDDESHIYA SWANS</h3>
+                        <p class="animated bounceInRight" style="animation-delay: 3s"><a href="/contact.html">Contact us</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/NGO-A.jpeg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated slideInDown" style="animation-delay: 1s"> Serving<span>Humanity </span></h2>
+                        <h3 class="animated fadeInUp" style="animation-delay: 2s">JAGRUTI VIKAS BAHUUDDESHIYA SWANS</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="/contact.html">Contact us</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/NGO-C.jpeg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">We<span> Serve Humanity </span></h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">JAGRUTI VIKAS BAHUUDDESHIYA SWANS</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="/contact.html">Contact us</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+<section >
+
+    <div class="panel panel-default" style="background-color:rgba(224, 218, 218, 0.959);">
+        <div class="panel-body">
+        
+you're at: / <a> Home</a> > <a>Donation</a>
+
+        </div>
+      </div>
+
+
+</section>
+<section>
+
+    <div class="container-fluid">
+
+            <div class="col-md-12 col-sm-12 ">
+     <h1 class="animated zoomIn" style=" animation-delay:1s; text-align:center;font-family: Georgia, 'Times New Roman', Times, serif; color: lightseagreen;"> 
+        Donate Now </h1>
+              <div class="col-md-12">
+
+        <p class="animated fadeInLeft" style=" animation-delay: 0.5s; text-align:center;font-size:large;"> 
+           
+          <strong>  JAGRUTI VIKAS BAHUUDDESHIYA SWANS</strong> Work for people welfare . Your Donation  will be Use to help poor and needy people. 
+
+           </p>
+           <div class="text-center"> 
+           </div>
+        </div>
+
+            </div>
+        
+   </div> 
+</section>
+<hr style="background-color:mediumslateblue; border-top: 1px solid pink;">
+
+</br>
+
+<section>
+    <div class="container">
+     <div class="row">
+        
+        <div class="text-center">
+            <img src="/img/AC.png" class="rounded" alt="...">
+          </div>
+
+        
+                       </div>
+   </section>
+   
+</br> 
+
+<section>
+<div class="col-md-12">
+
+<div class="panel-default">
+ </div>   
+
+
+</div>
+
+</section>
+
+
+</br>
+<section>
+    <div class="container-fluid">
+    <div class="row" style="background-color: rgb(148, 211, 196);">
+    <div class="col-md-10 ">
+    <p style="text-align:center;font-size: 3ch;"> dear Donors Without your Support we can't provide better service to people</p>
+    </div>
+    <div class="text-center "> 
+        <a href="/Donation.html">
+    <button type="button" style="margin-top:5px;"  class="btn btn-warning">Donate</button>
+    </a>
+    </div>
+    </div>
+</div>
+    </section>
+    
+    
+    
+    
+
+    <section>
+
+        <footer class="footer-section">
+                <div class="container">
+                    <div class="footer-cta pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-3 col-md-3 mb-30">
+                                <div class="single-cta">
+                                    <div class="cta-text">
+                                        <h4>important link</h4>
+                                        <a style="color:#f0ede4" href="/ngo.html"> &#8722; home </a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/About.html"> &#8722; AboutUs </a>
+                                </br>
+                                       <a style="color:#f0ede4" href="/contact.html"> &#8722; ContactUS</a>
+                            </br>
+                                       <a style="color:#f0ede4" href="/Donation.html"> &#8722; Donation</a>
+
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-3 mb-30">
+                                <div class="single-cta">
+                                    <div class="cta-text">
+                                        <h4>Our Recent work on</h4>
+                                        
+                                         <a style="color:#f0ede4" href="/Covid.html"> &#8722; Covid-19</a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/Medical-camp.html">  &#8722; Medical Camp </a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/Food-donation.html"> &#8722; Food Distribution</a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/Child-Education.html"> &#8722; Child Education</a>
+                                       
+                                        
+        
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-3 mb-30">
+                                <div class="single-cta">
+        
+                                 
+        
+        
+                                    <div class="cta-text">
+                                        <h4>Event And Gallery</h4>
+                                        
+        
+                                 <a style="color:#f0ede4" href="/volenteerCertificate.html">  &#8722; Volunteer certification</a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/RecentImage.html"> &#8722; RecentImage </a>
+                                </br>
+                                        <a style="color:#f0ede4" href="/OurActivity.html"> &#8722; Our Social Activity</a>
+                                        
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-xl-3 col-md-3 mb-30">
+        
+        
+                                <div class="single-cta">
+                           <div style=" width:200px; height:0px; padding: px;   border:2px solid #25294f;margin: 0; ">
+        
+                                    
+                                  </div>
+        
+                                    <div class="cta-text">
+                                        <h4>Address</h4>
+                                        
+        
+                                            <p style="color: azure;">
+                                            Cama Estate S.R.A Grihnirman sanstha Bhumi Building 
+                                            Sanjay nagar Walbhatt Road ,Goregaon(EAST) Mumbai-400063
+                                            </p>
+                                       
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-content pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-logo">
+                                        <a href="/ngo.html"><img src="img/Logo.jpeg" style="width:300px; height: 100px " class="img-fluid" alt="logo"></a>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3> About JVBS</h3>
+                                    </div>
+                                   
+                                         <p style=" color: #f0ede4">
+                                             JVBS is Mumbai Bassed NGO Work For Economically backward people       
+        
+        
+                                         </p>
+        
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3>Contact Us On</h3>
+                                    </div>
+                                    <div>
+                                       <p style="color: aliceblue;">+91  9867888028 / 8779622493</p>
+                                       <p style="color: aliceblue;">Email: jagrutivbsg082@gmail.com</p>
+
+        <br>
+        
+        
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                                <div class="copyright-text">
+                                    <p style="color:#f0ede4"> &copy; JAGRUTI VIKAS BAHUUDDESHIYA SWANS | All rights reserved </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                                <div class="footer-menu">
+                                    <ul>
+                                       
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+        </section>
+        
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
+
+
+    <script>
+
+        $(document).ready(function() {
+        
+        $(".owl-carousel").owlCarousel({
+        
+        autoPlay: 3000,
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3],
+        center: true,
+        dots:true,
+        nav:true,
+        loop:true,
+        responsive: {
+        600: {
+        items: 4
+        }
+        }
+        
+        });
+        
+        });
+        
+        </script>
+        
+
+
+
+</body>
+</html>

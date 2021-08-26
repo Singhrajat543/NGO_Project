@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Homepage design with Bootstrap and Animate css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+    
+
+    <link rel="stylesheet" href="css/non-IndexPages.css">    
+    <link rel="stylesheet" href="css/footer.css">    
+
+    <style>    
+        .parallax{
+        
+            background: url("img/NGO-B.jpeg")
+            repeat fixed 50%
+        
+            }
+            
+            .parallax-inner{
+            padding-top:10%;
+            padding-bottom:10%;
+            
+            }
+
+
+            .parallax2{
+        
+        background: url("img/Medical-Camp.jpeg")
+        repeat fixed 50%
+    
+        }
+        
+        .parallax-inner{
+        padding-top:10%;
+        padding-bottom:10%;
+        
+        }
+        
+   
+
+        .parallax3{
+        
+        background: url("img/NGO-A.jpeg")
+        repeat fixed 50%
+    
+        }
+        
+        .parallax-inner{
+        padding-top:20%;
+        padding-bottom:30%;
+        
+        }
+        
+            
+            </style>
+        
+            
+
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" style="background-color: black;">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="">JVBS</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/ngo.html">Home</a></li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Our Work
+                            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                            
+
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Covid.html">Covid-19</a>
+                            <a class="dropdown-item" href="Medical-camp.html">Medical Camp</a>
+                            <a class="dropdown-item" href="/Food-donation.html">Food donation
+                            </a>
+                            <a class="dropdown-item" href="/Child-Education.html">Child Education</a>
+                          </div>
+                        </li>
+                        
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Events
+                              <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                              
+  
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="/volenteerCertificate.html"> Certification</a>
+                            </div>
+                          </li>
+                        
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gallery
+                              <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                              
+  
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="/RecentImage.html">Recent Image</a>
+                              <a class="dropdown-item" href="/OurActivity.html">Our Activity</a>
+                            </div>
+                          </li>
+                          
+                        <li><a href="/contact.html">contact</a></li>
+                        <li><a href="/About.html">AboutUs</a></li>
+                        <li><a href="/Donation.html">Donation</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner" style="background-image: url(img/NGO-B.jpeg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated bounceInRight" style="animation-delay: 1s"> Serving <span>Humanity</span></h2>
+                        <h3 class="animated bounceInLeft" style="animation-delay: 2s"> JAGRUTI VIKAS BAHUUDDESHIYA SWANS</h3>
+                        <p class="animated bounceInRight" style="animation-delay: 3s"><a href="/contact.html">Contact us</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/NGO-A.jpeg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated slideInDown" style="animation-delay: 1s"> Serving<span>Humanity </span></h2>
+                        <h3 class="animated fadeInUp" style="animation-delay: 2s">JAGRUTI VIKAS BAHUUDDESHIYA SWANS</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="/contact.html">Contact us</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/NGO-C.jpeg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">We<span> Serve Humanity </span></h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">JAGRUTI VIKAS BAHUUDDESHIYA SWANS</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="/contact.html">Contact us</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+<section >
+
+    <div class="panel panel-default" style="background-color:rgba(224, 218, 218, 0.959);">
+        <div class="panel-body">
+        
+you're at: / <a> Home</a> > <a>About-US</a>
+
+        </div>
+      </div>
+
+
+</section>
+<section>
+
+    <div class="container-fluid" >
+
+            <div class="col-md-12 col-sm-12 ">
+     <h1 class="animated zoomIn" style=" animation-delay:1s; text-align:center;font-family: Georgia, 'Times New Roman', Times, serif; color: lightseagreen;"> 
+        JAGRUTI VIKAS BAHUUDDESHIYA SWANS  </h1>
+              <div class="col-md-12">
+
+        <p class="animated fadeInLeft" style=" animation-delay: 0.5s; text-align:center;font-size:large;"> 
+            
+            JAGRUTI VIKAS BAHUUDDESHIYA SWANS orgnisation is an NGO in India bassed in Goregaon Mumbai.The NGO Registerd in the Year 2019  Under bombai  Public Trusts Act-1950(Act number
+            29 of bombay public trust  act 1950) And Societies Registration Act,1860. The Primary objective of JAGRUTI VIKAS BAHUUDDESHIYA SWANS to provide 
+           help to economically backward people for their Education and health and Provide food to needy People 
+           
+           </p>
+           <div class="text-center"> 
+           <button type="button" style="width:150px;"  class="btn btn-warning p-3 mb-4">Read Below </button>
+           </div>
+        </div>
+
+            </div>
+        
+   </div> 
+</section>
+<hr style="background-color:mediumslateblue; border-top: 1px solid pink;">
+
+</br>
+
+<section>
+    <div class="container" >
+     <div class="row">
+         <div class="col-md-8 ">
+            <h3 style="color: cadetblue;" > Our Selfless Service For society </h3>
+
+                 <p style="font-size: large;">  
+                
+                    JVBS continuously  Serving  for people welfare in different sector to empower and Support helpless
+                    People. we belive that a small contribution can have impactful and positive Changes
+                    many people have join our initiative to help needy people . These  are our some of help and support 
+                    initiative for people
+                 </br>  
+                    
+                  <strong>  our work during Covid-19:-</strong> During the peak of Covid-19 time Our Organation had Set up Medical camp 
+                    to spread Awareness among people about covid-19 and  how they can take safety precautions
+                    We also Educate people to how they can boost their emunity system to fight againest Covid
+                    We donated Mask , ration  among people and we also work on sanitization  of slum's  
+                    
+                </br>
+                    
+                  <strong>  Support Children for Education :-</strong> We believe that an education is only way that can bring new changes
+                    and equality in society . Our NGO  is sincerely working to support child for their educational need
+                    we distributed books and other materils related to their education for poor children 
+                    
+                </br>
+                    
+                 <strong> Medical Camp:-</strong> for time to time , we organize medical camp  to provide initial care to people and educate them on different 
+                    health realated issue . during covid-19 time we had organized  medical camp to educate and check symptom of covid-19
+                    
+                </br>
+                   <strong> Food and ration Distribution:-</strong>  Our NGO Distribute  Food and  ration Among poor and needy people . we distributed large ammount
+                    ration among labour during covid-19 time 
+                </br>
+                    
+                  <strong> swachata abhiyan:-</strong> time to time we Organise swachata abhiyan were many people come forward to support our initiative .
+                     we educate people on importance of cleanliness and hygiene and how it is important  to  keep our  surrounding clean . 
+
+                </p>
+                                 
+                                                   
+   
+   
+                                           
+   
+   
+                           </div>
+                           
+                           <div class="col-md-4">
+                            <img src="img/Medical-Camp.jpeg" alt="" style="height:290px; width:100%;">
+                        </div>
+
+
+                       </div>
+        
+                       </div>
+   </section>
+   
+</br> 
+
+<section>
+
+<div class="container">
+<div class="row"> 
+    <div class="col-md-6">
+<div class="panel-default"  style="border: 1px solid;padding: 10px;  box-shadow: 5px 10px #888888;">
+
+
+    <div class="panel-body">
+    <p style="text-align:center;font-size: larger;color: aqua;"> Mission</p>
+    <hr style="background-color: cornflowerblue;">
+
+    
+    <p style="margin:0px 0px 50px 0px; text-align: center; font-size: large;"> 
+        The purpose of our organization is  only human service. Our aim is to serve poor and needy people.
+        we aim to serve more children to support their education and we want no poor  family to sleep hungry 
+        Our organization distributed mask and Sanitizers to people during the Covid time . we had set up Medical capm in place 
+        and awakend people about the covid-19 symptoms and safety precautions.
+        We distributed Ration Among Needy people during covid loackdown
+        
+        
+        JVBS aims to  involve more and more people and raise maximum fund to support needy people
+    </p>
+
+    </div>
+
+
+ </div>   
+
+</div>
+
+<div class="col-md-6">
+ <div class="panel-default" style="border: 1px solid;padding: 10px;  box-shadow: 5px 10px #888888;">
+
+    <div class="panel-body">
+
+    <p style="text-align:center;font-size: larger;color: aqua;"> visison  </p>
+    <hr style="background-color: cornflowerblue;">
+              
+    <p style="margin:0px 0px 50px 0px; text-align: center; font-size: large;"> 
+
+
+ Our Main Objective and vission is to Serve  needy  people with  Selflessly emotions . 
+we aims to ensure that  Every  poor family should have better education and Access of good health care
+Our NGO is continuously working to fulfill the need of helpless people.
+We  Continuos aiming to invole more peple to help and support the needy people.
+From Your help and Support we can make  Postive Impact  on many life .
+We aiming World Without Hunger , we aiming every one should have get  basic helth services.
+A world need to be place where everyone has a sufficient place to live a better life
+    </p>
+
+    </div>
+ </div>   
+
+</div>
+</div>
+
+
+</div>
+
+</section>
+</br>
+
+
+<section>
+    <div class="container ">
+        <div class="row">
+        <div class="col-md-5 parallax" >
+   <div class="parallax-inner">
+   <h1 style="text-align: center;">  </h1>
+   </div>
+   </div>
+
+   <div class="col-md-5 parallax2" style="margin-left:2px ;">
+    <div class="parallax-inner">
+    <h1 style="text-align: center;">  </h1>
+    </div>
+    </div>
+    
+
+   </div>
+   </div>
+</section>  
+   
+</br>
+<section>
+    <div class="container-fluid">
+    <div class="row" style="background-color: rgb(148, 211, 196);">
+    <div class="col-md-10 ">
+    <p style="text-align:center;font-size: 3ch;"> dear Donors Without your Support we can't provide better service to people</p>
+    </div>
+    <div class="text-center "> 
+        <a href="/Donation.html">
+    <button type="button" style="margin-top:5px;"  class="btn btn-warning">Donate</button>
+    </a>
+    </div>
+    </div>
+</div>
+    </section>
+    
+    
+    
+    
+
+    <section>
+
+        <footer class="footer-section">
+                <div class="container">
+                    <div class="footer-cta pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-3 col-md-3 mb-30">
+                                <div class="single-cta">
+                                    <div class="cta-text">
+                                        <h4>important link</h4>
+                                        <a style="color:#f0ede4" href="/ngo.html"> &#8722; home </a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/About.html"> &#8722; AboutUs </a>
+                                </br>
+                                       <a style="color:#f0ede4" href="/contact.html"> &#8722; ContactUS</a>
+                            </br>
+                                       <a style="color:#f0ede4" href="/Donation.html"> &#8722; Donation</a>
+
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-3 mb-30">
+                                <div class="single-cta">
+                                    <div class="cta-text">
+                                        <h4>Our Recent work on</h4>
+                                        
+                                         <a style="color:#f0ede4" href="/Covid.html"> &#8722; Covid-19</a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/Medical-camp.html">  &#8722; Medical Camp </a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/Food-donation.html"> &#8722; Food Distribution</a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/Child-Education.html"> &#8722; Child Education</a>
+                                       
+                                        
+        
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-3 mb-30">
+                                <div class="single-cta">
+        
+                                 
+        
+        
+                                    <div class="cta-text">
+                                        <h4>Event And Gallery</h4>
+                                        
+        
+                                 <a style="color:#f0ede4" href="/volenteerCertificate.html">  &#8722; Volunteer certification</a>
+                                    </br>
+                                        <a style="color:#f0ede4" href="/RecentImage.html"> &#8722; RecentImage </a>
+                                </br>
+                                        <a style="color:#f0ede4" href="/OurActivity.html"> &#8722; Our Social Activity</a>
+                                        
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-xl-3 col-md-3 mb-30">
+        
+        
+                                <div class="single-cta">
+                           <div style=" width:200px; height:0px; padding: px;   border:2px solid #25294f;margin: 0; ">
+        
+                                    
+                                  </div>
+        
+                                    <div class="cta-text">
+                                        <h4>Address</h4>
+                                        
+        
+                                            <p style="color: azure;">
+                                            Cama Estate S.R.A Grihnirman sanstha Bhumi Building 
+                                            Sanjay nagar Walbhatt Road ,Goregaon(EAST) Mumbai-400063
+                                            </p>
+                                       
+        
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-content pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-logo">
+                                        <a href="/ngo.html"><img src="img/Logo.jpeg" style="width:300px; height: 100px " class="img-fluid" alt="logo"></a>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3> About JVBS</h3>
+                                    </div>
+                                   
+                                         <p style=" color: #f0ede4">
+                                             JVBS is Mumbai Bassed NGO Work For Economically backward people       
+        
+        
+                                         </p>
+        
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                                <div class="footer-widget">
+                                    <div class="footer-widget-heading">
+                                        <h3>Contact Us On</h3>
+                                    </div>
+                                    <div>
+                                       <p style="color: aliceblue;">+91  9867888028 / 8779622493</p>
+                                       <p style="color: aliceblue;">Email: jagrutivbsg082@gmail.com</p>
+
+        <br>
+        
+        
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                                <div class="copyright-text">
+                                    <p style="color:#f0ede4"> &copy; JAGRUTI VIKAS BAHUUDDESHIYA SWANS | All rights reserved </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                                <div class="footer-menu">
+                                    <ul>
+                                       
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+        </section>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
+
+
+    <script>
+
+        $(document).ready(function() {
+        
+        $(".owl-carousel").owlCarousel({
+        
+        autoPlay: 3000,
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3],
+        center: true,
+        dots:true,
+        nav:true,
+        loop:true,
+        responsive: {
+        600: {
+        items: 4
+        }
+        }
+        
+        });
+        
+        });
+        
+        </script>
+        
+
+
+
+</body>
+</html>
